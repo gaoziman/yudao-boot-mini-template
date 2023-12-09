@@ -188,7 +188,8 @@ logging:
     cn.iocoder.yudao.module.trade.dal.mysql: debug
     cn.iocoder.yudao.module.promotion.dal.mysql: debug
     cn.iocoder.yudao.module.statistics.dal.mysql: debug
-
+  pattern:
+    dateformat: HH:mm:ss:SSS
 debug: false
 
 --- #################### 微信公众号、小程序相关配置 ####################

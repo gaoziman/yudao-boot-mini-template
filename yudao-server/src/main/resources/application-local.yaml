@@ -4,7 +4,7 @@ server:
 --- #################### 数据库相关配置 ####################
 
 spring:
-  # 数据源配置项
+  # 数据源配置项 懒加载
   autoconfigure:
     exclude:
       - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration # 排除积木报表带来的 MongoDB 的自动配置
